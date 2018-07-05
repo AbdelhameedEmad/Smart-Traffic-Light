@@ -1,0 +1,3 @@
+package internship;
+
+@license(LGPL);
