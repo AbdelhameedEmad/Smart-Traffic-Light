@@ -7,4 +7,4 @@ An Omnet++ Simulation for a Smart Traffic Light network consisting of:
 
 # Algorithm:
 
-The algorithm is desined for crossroads which has 4 Traffic lights, each traffic light can open 2 sucessive times but, this lane will be locked for 60 sec. so that no starvation happens in other 3 lanes.
+The algorithm is designed for crossroads which has 4 Traffic lights, the fog gets the number of cars at each traffic light by video processing of the video sent from the traffic light camera to it, each traffic light opens for 20 sec. when it recieves a message from the fog and it can open 2 sucessive times but, then it will be locked for 60 sec. so that no starvation happens in the other 3 lanes.
